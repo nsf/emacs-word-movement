@@ -1,7 +1,7 @@
 {
   "name": "emacs-word-movement",
   "main": "./lib/emacs-word-movement",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Emacs-like word movement/selection/editing",
   "activationCommands": {},
   "repository": "https://github.com/nsf/emacs-word-movement",
