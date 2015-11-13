@@ -1,0 +1,15 @@
+'.platform-linux atom-text-editor:not([mini])':
+  'ctrl-left': 'emacs-word-movement:move-to-beginning-of-word'
+  'ctrl-right': 'emacs-word-movement:move-to-end-of-word'
+  'ctrl-shift-left': 'emacs-word-movement:select-to-beginning-of-word'
+  'ctrl-shift-right': 'emacs-word-movement:select-to-end-of-word'
+  'ctrl-backspace': 'emacs-word-movement:delete-to-beginning-of-word'
+  'ctrl-delete': 'emacs-word-movement:delete-to-end-of-word'
+
+'.platform-win32 atom-text-editor:not([mini])':
+  'ctrl-left': 'emacs-word-movement:move-to-beginning-of-word'
+  'ctrl-right': 'emacs-word-movement:move-to-end-of-word'
+  'ctrl-shift-left': 'emacs-word-movement:select-to-beginning-of-word'
+  'ctrl-shift-right': 'emacs-word-movement:select-to-end-of-word'
+  'ctrl-backspace': 'emacs-word-movement:delete-to-beginning-of-word'
+  'ctrl-delete': 'emacs-word-movement:delete-to-end-of-word'

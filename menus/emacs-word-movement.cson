@@ -1,0 +1,34 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Emacs Word Movement'
+      'submenu': [
+        {
+          'label': 'Move to Beginning of Word'
+          'command': 'emacs-word-movement:move-to-beginning-of-word'
+        },
+        {
+          'label': 'Move to End of Word'
+          'command': 'emacs-word-movement:move-to-end-of-word'
+        },
+        {
+          'label': 'Select to Beginning of Word'
+          'command': 'emacs-word-movement:select-to-beginning-of-word'
+        },
+        {
+          'label': 'Select to End of Word'
+          'command': 'emacs-word-movement:select-to-end-of-word'
+        },
+        {
+          'label': 'Delete to Beginning of Word'
+          'command': 'emacs-word-movement:delete-to-beginning-of-word'
+        },
+        {
+          'label': 'Delete to End of Word'
+          'command': 'emacs-word-movement:delete-to-end-of-word'
+        }
+      ]
+    ]
+  }
+]
